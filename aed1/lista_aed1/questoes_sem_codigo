@@ -1,0 +1,88 @@
+1- É necessário e suficiente que a quantidade de operações de enfileira seja igual a quantidade de operações de
+desenfileira.
+
+2- Vantagens:
+    Economia de tempo: Ao adiar o deslocamento até a necessidade real, economiza-se tempo nas operações
+    de Desenfileira.
+    Redução de operações de movimentação: Em um deslocamento em cada Desenfileira, todos os elementos da
+    fila precisam ser movidos para trás a cada remoção de um elemento. Nesse método, o deslocamento é
+    adiado até ser realmente necessário, o que pode resultar em menos operações de movimentação.
+
+    Desvantagens:
+    Ineficiente para operações de Enfileira: Se a fila estiver cheia e for necessário deslocar todos os 
+    elementos para trás, essa operação será muito ineficiente.
+    Uso de memória adicional: Adiar o deslocamento até que seja necessário pode requerer o uso de memória
+    adicional para armazenar temporariamente os elementos que precisam ser movidos.
+    Complexidade de implementação: A lógica para lidar com o adiamento do deslocamento pode tornar a 
+    implementação mais complexa .
+
+12- Uma estrutura do tipo fila é uma estrutura de dados que segue o princípio "primeiro a entrar, primeiro
+a sair" (First-In-First-Out, ou FIFO). É semelhante a uma fila de pessoas em um supermercado, onde a 
+primeira pessoa a entrar é a primeira a sair, e novas pessoas são adicionadas ao final da fila.
+
+Operações comuns em uma estrutura de fila:
+
+enfileirar: Adicionar um elemento ao final da fila.
+desenfileirar: Remover o elemento do início da fila.
+frente da fila: Obter o elemento do início da fila sem removê-lo.
+tamanho: Obter o número de elementos na fila.
+Fila Vazia: Verificar se a fila está vazia.
+
+13- Fila Sequencial Estática:
+    1- Os elementos são armazenados em um vetor de tamanho fixo;
+    2- O tamanho da fila é definido previamente;
+    3- Na função enfileirar, o elemento é inserido no final do vetor;
+    4- Na função desenfileirar, o elemento no início do vetor é removido e os elementos restantes 
+    são deslocados para preencher o espaço vazio;
+    5- A utilização de um vetor torna o acesso aos elementos rápido e eficiente;
+    6- O tamanho fixo pode limitar a quantidade de elementos que a fila pode armazenar.
+
+    Fila Dinâmica Encadeada:
+    1- Os elementos são armazenados em nós que estão espalhados pela memória e conectados através de 
+    ponteiros;
+    2- Não há um limite fixo para o tamanho da fila;
+    3- Na função enfileirar, um novo nó é criado dinamicamente na memória e conectado ao final da fila, e
+    o ponteiro do último nó é atualizado para apontar para o novo nó;
+    4- Na função desenfileirar, o nó no início da fila é removido, e o ponteiro do início da fila é 
+    atualizado para apontar para o próximo nó da fila;
+    5- Oferece flexibilidade no tamanho e reduz o desperdício de memória;
+    6- Menos eficiente no acesso dos elementos.
+
+14- Fila de Espera: Em sistemas de atendimento ao cliente, a fila pode ser usada para organizar os 
+    clientes em uma ordem de chegada para serem atendidos.
+    Controle de documentos para impressão: existe uma fila de espera entre cada folha de impressão;
+
+    Usar fila estática seria conveniente quando:
+    O tamanho máximo da fila é conhecido;
+
+    Usar fila dinâmica seria conveniente quando:
+    O tamanho máximo da fila é desconhecido;
+    É necessário economizar memória e alocar apenas o espaço necessário;
+
+17- Uma pilha é uma estrutura de dados onde o último elemento adicionado à pilha é o primeiro a ser 
+removido. É semelhante a uma pilha de pratos: você adiciona novos pratos em cima da pilha e, para retirar
+um prato, você retira o último que foi adicionado, que está no topo da pilha.
+
+Existem três operações principais:
+
+Empilhar: Adicionar um elemento no topo da pilha;
+Desempilhar: Remover o elemento do topo da pilha;
+Topo: Imprime o elemento no topo da pilha.
+
+18- Pilha Sequencial Estática:
+    1- É implementada usando-se um vetor de tamanho fixo;
+    2- Se a pilha ficar cheia, não será possível adicionar novos elementos; 
+    3- O acesso aos elementos na pilha é feito por índices;
+    4- Não é possível aumentar ou reduzir o tamanho da pilha durante a execução.
+
+    Pilha Dinâmica Encadeada:
+    1- É implementada usando uma estrutura de lista encadeada, onde cada elemento (nó) contém o valor 
+    e um ponteiro para o próximo elemento da pilha.
+    2- A pilha pode crescer ou diminuir dinamicamente;
+    3- O uso de ponteiros pode adicionar um overhead de memória;
+    
+21- Pilha: 23 
+
+    
+
+

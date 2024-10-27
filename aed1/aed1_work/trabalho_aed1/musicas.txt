@@ -1,0 +1,85 @@
+1
+João
+joao@gmail.com
+123
+1
+Maria
+maria@gmail.com
+123
+1
+Daniel
+daniel@gmail.com
+123
+1
+Luiz
+luiz@gmail.com
+123
+1
+Beto
+beto@gmail.com
+123
+2
+joao@gmail.com
+123
+1
+FBC
+THC
+1
+O Terno
+Culpa
+1
+Foster The People
+Style
+5
+2
+maria@gmail.com
+123
+1
+Boogarins
+Doce
+1
+Math Glody
+Hemoglobina
+1
+Black Sabbath
+Paranoid
+5
+2
+daniel@gmail.com
+123
+1
+MC Pipokinha
+Bota na Pipokinha
+1
+Linkin Park
+Numb
+1
+50 Cent
+In Da Club
+5
+2
+beto@gmail.com
+123
+1
+Nirvana
+Come As You Are
+1
+R.E.M.
+Losing My Religion
+1
+Queen
+Killer Queen
+5
+2
+luiz@gmail.com
+123
+1
+David Bowie
+Starman
+1
+Eminem
+Without Me
+1
+Scorpions
+Wind Of Change
+5
